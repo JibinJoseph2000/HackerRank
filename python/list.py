@@ -30,4 +30,4 @@ if __name__ == '__main__':
     result =compareTriplets(a,b)
     print(result[0],result[1])
     fptr.write(' '.join(map(str, result)))    
-    fptr.write('\n')
+    fptr.write('\n') 
