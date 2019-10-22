@@ -10,12 +10,11 @@ def compareTriplets(a, b):
     q=0
     ar=[]
     for i in range(0,3):
-        if(a[i]>0 and a[i]<101):
-            if(b[i]>0 and b[i]<101):
-                if(a[i]>b[i]):
-                    p=p+1
-                if(a[i]<b[i]):
-                    q=q+1
+        if((a[i]>0 and a[i]<101) and (b[i]>0 and b[i]<101)):
+            if(a[i]>b[i]):
+                p=p+1
+            if(a[i]<b[i]):
+                q=q+1
     ar.append(p)
     ar.append(q)
     return ar
